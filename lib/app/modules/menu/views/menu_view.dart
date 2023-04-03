@@ -29,34 +29,36 @@ class MenuView extends GetView<MenuController> {
               height: 8.0,
             ),
             // Top Row
-            Obx( () => Container(
-              padding: const EdgeInsets.all(24.0),
-              child: MenuTopBar(router:router, score: score.totalScore.value),
-            )),
-            Expanded(child:Container() 
-              
+            Obx(() => Container(
+                  padding: const EdgeInsets.all(24.0),
+                  child:
+                      MenuTopBar(router: router, score: score.totalScore.value),
+                )),
+            Expanded(child: Container()),
+            Container(
+              alignment: Alignment.bottomCenter,
+              padding:
+                  const EdgeInsets.only(left: 32.0, right: 32.0, bottom: 60.0),
+              child: const MainMenuContainer(),
             ),
             Container(
-                alignment: Alignment.bottomCenter,
-                padding: const EdgeInsets.only(left:32.0, right: 32.0, bottom: 60.0),
-                child: 
-                  const MainMenuContainer(),
-              ),
-              Container(
-                alignment: Alignment.center,
-                margin: const EdgeInsets.symmetric(vertical: 12, horizontal: 40),
-                child: TextButton(
-                    onPressed: () async {
-                      final lang = Get.locale?.languageCode == 'en' ? 'en' : 'tc';
+              alignment: Alignment.center,
+              margin: const EdgeInsets.symmetric(vertical: 12, horizontal: 40),
+              child: TextButton(
+                  onPressed: () async {
+                    final lang = Get.locale?.languageCode == 'en' ? 'en' : 'tc';
 
-                      Uri url = Uri.parse('http://shop.aroma.com.hk/' + lang + '/product/category?no=60');
-                      if ( await launchUrl(url)) {
-                      } else {
-                        print('can not lanch');
-                      }
-                    },
-                    child: Text(LocaleKeys.general_shopNow.tr, style: TextStyle(fontSize: 12.0))),
-        ),
+                    Uri url = Uri.parse('http://shop.aroma.com.hk/' +
+                        lang +
+                        '/product/category?no=60');
+                    if (await launchUrl(url)) {
+                    } else {
+                      print('can not lanch');
+                    }
+                  },
+                  child: Text(LocaleKeys.general_shopNow.tr,
+                      style: TextStyle(fontSize: 12.0))),
+            ),
           ],
         ),
       ),
@@ -86,9 +88,8 @@ class BottomExitIcon extends StatelessWidget {
         child: Container(
           alignment: Alignment.center,
           decoration: BoxDecoration(
-                  color: HexColor('#93BDD6'),
-                  borderRadius: const BorderRadius.all(Radius.circular(100.0))
-                ),
+              color: HexColor('#93BDD6'),
+              borderRadius: const BorderRadius.all(Radius.circular(100.0))),
           child: IconButton(
             icon: Image.asset('assets/images/menu_close.png'),
             onPressed: () => router.changePage(Routes.MAIN),
@@ -98,6 +99,3 @@ class BottomExitIcon extends StatelessWidget {
     );
   }
 }
-
-
-

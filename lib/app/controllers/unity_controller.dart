@@ -86,114 +86,114 @@ class UnityController extends GetxController {
   }
 
   void onUnityMessage(message) {
-    final RouterController router = Get.find<RouterController>();
-    print('Received message from unity: ${message.toString()}');
-    String key = message.toString();
-    if (key == "getCurrentPage") {
-      // UserController user = Get.find<UserController>();
-      // user.verify();
-      var h = Get.global(1).currentState!.history;
-      var p = h[h.length - 1].route.settings.name;
-      if (p != null) {
-        router.shouldIgnorePointer(p);
-      }
-      return;
-    }
-    if (key == "openMenu") {
-      if (lastAction.value != 'openMenu') {
-        lastAction.value = 'openMenu';
-        loading.value = true;
-        update();
-        router.changePage(Routes.MENU);
-        loading.value = false;
-        update();
-      }
-      return;
-    }
-    if (key == "OpenInventory") {
-      if (lastAction.value != 'OpenInventory') {
-        lastAction.value = 'OpenInventory';
-        loading.value = true;
-        update();
-        router.changePage(Routes.INVENTORY);
-        loading.value = false;
-        update();
-      }
-      return;
-    }
-    if (key == "openBreath") {
-      if (lastAction.value != 'openBreath') {
-        lastAction.value = 'openBreath';
-        loading.value = true;
-        update();
-        final BreathController breathController = Get.find<BreathController>();
-        breathController.startBreath();
-        loading.value = false;
-        update();
-      }
-      return;
-    }
-    if (key == "breathStart") {
-      final BreathController breathController = Get.find<BreathController>();
-      breathController.isBreathing.value = true;
-      breathController.breathTimer.value =
-          DateTime.now().millisecondsSinceEpoch;
-      return;
-    }
+    // final RouterController router = Get.find<RouterController>();
+    // print('Received message from unity: ${message.toString()}');
+    // String key = message.toString();
+    // if (key == "getCurrentPage") {
+    //   // UserController user = Get.find<UserController>();
+    //   // user.verify();
+    //   var h = Get.global(1).currentState!.history;
+    //   var p = h[h.length - 1].route.settings.name;
+    //   if (p != null) {
+    //     router.shouldIgnorePointer(p);
+    //   }
+    //   return;
+    // }
+    // if (key == "openMenu") {
+    //   if (lastAction.value != 'openMenu') {
+    //     lastAction.value = 'openMenu';
+    //     loading.value = true;
+    //     update();
+    //     router.changePage(Routes.MENU);
+    //     loading.value = false;
+    //     update();
+    //   }
+    //   return;
+    // }
+    // if (key == "OpenInventory") {
+    //   if (lastAction.value != 'OpenInventory') {
+    //     lastAction.value = 'OpenInventory';
+    //     loading.value = true;
+    //     update();
+    //     router.changePage(Routes.INVENTORY);
+    //     loading.value = false;
+    //     update();
+    //   }
+    //   return;
+    // }
+    // if (key == "openBreath") {
+    //   if (lastAction.value != 'openBreath') {
+    //     lastAction.value = 'openBreath';
+    //     loading.value = true;
+    //     update();
+    //     final BreathController breathController = Get.find<BreathController>();
+    //     breathController.startBreath();
+    //     loading.value = false;
+    //     update();
+    //   }
+    //   return;
+    // }
+    // if (key == "breathStart") {
+    //   final BreathController breathController = Get.find<BreathController>();
+    //   breathController.isBreathing.value = true;
+    //   breathController.breathTimer.value =
+    //       DateTime.now().millisecondsSinceEpoch;
+    //   return;
+    // }
 
-    if (key == "GoStrength") {
-      if (lastAction.value != 'GoStrength') {
-        lastAction.value = 'GoStrength';
-        loading.value = true;
-        update();
-        router.changePage(Routes.STRENGTH_LIST);
-        loading.value = false;
-        update();
-      }
-      return;
-    }
-    if (key == "goDream") {
-      if (lastAction.value != 'goDream') {
-        lastAction.value = 'goDream';
-        loading.value = true;
-        update();
-        // final RouterController router = Get.find<RouterController>();
-        router.changePage(Routes.DREAM_LIST);
-        loading.value = false;
-        update();
-      }
-      return;
-    }
-    if (key == "GoWheel") {
-      if (lastAction.value != 'GoWheel') {
-        lastAction.value = 'GoWheel';
-        loading.value = true;
-        update();
-        router.changePage(Routes.WHEEL_OF_LIFE);
-        loading.value = false;
-        update();
-      }
-      return;
-    }
+    // if (key == "GoStrength") {
+    //   if (lastAction.value != 'GoStrength') {
+    //     lastAction.value = 'GoStrength';
+    //     loading.value = true;
+    //     update();
+    //     router.changePage(Routes.STRENGTH_LIST);
+    //     loading.value = false;
+    //     update();
+    //   }
+    //   return;
+    // }
+    // if (key == "goDream") {
+    //   if (lastAction.value != 'goDream') {
+    //     lastAction.value = 'goDream';
+    //     loading.value = true;
+    //     update();
+    //     // final RouterController router = Get.find<RouterController>();
+    //     router.changePage(Routes.DREAM_LIST);
+    //     loading.value = false;
+    //     update();
+    //   }
+    //   return;
+    // }
+    // if (key == "GoWheel") {
+    //   if (lastAction.value != 'GoWheel') {
+    //     lastAction.value = 'GoWheel';
+    //     loading.value = true;
+    //     update();
+    //     router.changePage(Routes.WHEEL_OF_LIFE);
+    //     loading.value = false;
+    //     update();
+    //   }
+    //   return;
+    // }
 
-    if (key == "breathStop") {
-      final BreathController breathController = Get.find<BreathController>();
-      // final RouterController router = Get.find<RouterController>();
-      breathController.stopBreath();
-      breathController.isBreathing.value = false;
-      router.offPage(Routes.BREATH_FINISH);
-      return;
-    }
+    // if (key == "breathStop") {
+    //   final BreathController breathController = Get.find<BreathController>();
+    //   // final RouterController router = Get.find<RouterController>();
+    //   breathController.stopBreath();
+    //   breathController.isBreathing.value = false;
+    //   router.offPage(Routes.BREATH_FINISH);
+    //   return;
+    // }
 
-    if (key == "introFinish") {
-      // final RouterController router = Get.find<RouterController>();
-      // _unityWidgetController.resume();
-      ready.value = true;
-      router.offPage(Routes.LANDING);
+    // if (key == "introFinish") {
+    //   // final RouterController router = Get.find<RouterController>();
+    //   // _unityWidgetController.resume();
+    //   ready.value = true;
+    //   router.offPage(Routes.LANDING);
 
-      update();
-      return;
-    }
+    //   update();
+    //   return;
+    // }
   }
 
   void onUnitySceneLoaded() {
