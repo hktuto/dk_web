@@ -22,6 +22,14 @@ class HomeView extends GetView<HomeController> {
     return Scaffold(
       resizeToAvoidBottomInset: true,
       body: Stack(children: [
+        Container(
+          width: MediaQuery.of(context).size.width,
+          height: MediaQuery.of(context).size.height,
+          child: FittedBox(
+            child: Image.asset('/images/intro.png'),
+            fit: BoxFit.cover,
+          ),
+        ),
         // UnityWidget(
         //     onUnityCreated: unityController.onUnityCreated,
         //     onUnityMessage: unityController.onUnityMessage,

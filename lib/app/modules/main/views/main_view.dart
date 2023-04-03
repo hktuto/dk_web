@@ -135,46 +135,46 @@ class MainView extends GetView<MainController> {
                         onPressed: () => router.changePage(Routes.MENU),
                       )),
                 ),
-                const SizedBox(width: 12.0),
-                GestureDetector(
-                    onTap: () => breathController.startBreath(),
-                    child: Obx(
-                      () => record.todayBreathingCount.value >= 3
-                          ? Container(
-                              padding: const EdgeInsets.only(
-                                  top: 8.0, bottom: 8.0, left: 8.0, right: 8.0),
-                              decoration: BoxDecoration(
-                                  color: HexColor('#93BDD6'),
-                                  borderRadius: const BorderRadius.all(
-                                      Radius.circular(100.0))),
-                              child: Row(children: [
-                                Image.asset('assets/images/breath.png')
-                              ]),
-                            )
-                          : Container(
-                              padding: const EdgeInsets.only(
-                                  top: 8.0,
-                                  bottom: 8.0,
-                                  left: 8.0,
-                                  right: 12.0),
-                              decoration: BoxDecoration(
-                                  color: HexColor('#93BDD6'),
-                                  borderRadius: const BorderRadius.all(
-                                      Radius.circular(100.0))),
-                              child: Row(
-                                children: [
-                                  Image.asset('assets/images/breath.png'),
-                                  const SizedBox(width: 12.0),
-                                  Text(
-                                      LocaleKeys.main_breath_time_before.tr +
-                                          (3 - record.todayBreathingCount.value)
-                                              .toString() +
-                                          LocaleKeys.main_breath_time_after.tr,
-                                      style: const TextStyle(
-                                          fontSize: 12.0, color: Colors.white))
-                                ],
-                              )),
-                    ))
+                // const SizedBox(width: 12.0),
+                // GestureDetector(
+                //     onTap: () => breathController.startBreath(),
+                //     child: Obx(
+                //       () => record.todayBreathingCount.value >= 3
+                //           ? Container(
+                //               padding: const EdgeInsets.only(
+                //                   top: 8.0, bottom: 8.0, left: 8.0, right: 8.0),
+                //               decoration: BoxDecoration(
+                //                   color: HexColor('#93BDD6'),
+                //                   borderRadius: const BorderRadius.all(
+                //                       Radius.circular(100.0))),
+                //               child: Row(children: [
+                //                 Image.asset('assets/images/breath.png')
+                //               ]),
+                //             )
+                //           : Container(
+                //               padding: const EdgeInsets.only(
+                //                   top: 8.0,
+                //                   bottom: 8.0,
+                //                   left: 8.0,
+                //                   right: 12.0),
+                //               decoration: BoxDecoration(
+                //                   color: HexColor('#93BDD6'),
+                //                   borderRadius: const BorderRadius.all(
+                //                       Radius.circular(100.0))),
+                //               child: Row(
+                //                 children: [
+                //                   Image.asset('assets/images/breath.png'),
+                //                   const SizedBox(width: 12.0),
+                //                   Text(
+                //                       LocaleKeys.main_breath_time_before.tr +
+                //                           (3 - record.todayBreathingCount.value)
+                //                               .toString() +
+                //                           LocaleKeys.main_breath_time_after.tr,
+                //                       style: const TextStyle(
+                //                           fontSize: 12.0, color: Colors.white))
+                //                 ],
+                //               )),
+                //     ))
               ],
             ))
       ],

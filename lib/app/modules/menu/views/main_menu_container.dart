@@ -20,7 +20,7 @@ class MainMenuContainer extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           MenuItemView(
-              label: 'Stregth',
+              label: LocaleKeys.menu_strength.tr,
               icon: 'assets/images/strength.png',
               action: () => router.changePage(Routes.STRENGTH_LIST)),
         ],
