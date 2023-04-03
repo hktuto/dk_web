@@ -1,0 +1,4 @@
+{
+	"error": true,
+	"error-message": "A user with that email address already exists"
+}

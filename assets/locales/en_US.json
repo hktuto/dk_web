@@ -1,0 +1,373 @@
+{
+    "breath":{
+        "restart":"Restart",
+        "stop":"Stop",
+        "backToMenu":"Back To Menu",
+        "back":"Back",
+        "how_do_you_feel":"How Do You Feel",
+        "Congratulation":"Congratulation",
+        "OK":"OK",
+        "skip":"Skip",
+        "open":"Open",
+        "insert":"Insert",
+        "ready":"Ready",
+        "next":"Next",
+        "skipIntro":"Show Intro video on next breath?"
+    },
+    "question":{
+        "title":"Do you want to improve the situation?",
+        "0":{
+            "question":"Easily feel angry and unbalanced",
+            "name":"Fire",
+            "tagline":"Happy & Balance"
+        },
+        "1":{
+            "question":"Cannot focus properly",
+            "name":"Water",
+            "tagline":"Focus & Breath Fresh"
+        },
+        "2":{
+            "question":"Feeling Stressed and not yourself",
+            "name":"Wood",
+            "tagline":"Calm & Relax"
+        },
+        "3":{
+            "question":"Lack of confidence and feeling unattractive",
+            "name":"Metal",
+            "tagline":"Confident & Fascination"
+        },
+        "4":{
+            "question":"Insomnia and lack of passion in life",
+            "name":"Earth",
+            "tagline":"Sweet Dream & Passion"
+        }
+        
+    },
+    "general":{
+        "create":"Create",
+        "confirm":"Confirm",
+        "back": "Back",
+        "backToHome":"Back to home",
+        "close":"Close",
+        "success":"Success",
+        "fail":"fail",
+        "loading":"loading",
+        "shopNow": "Purchase Aroma Pod"
+    },
+    "forget_password": {
+        "title":"Forgot Password",
+        "email":"Email",
+        "success_message":"A reset email will be send to you shortly, please follow the instruction to reset your password",
+        "success": "Success",
+        "fail":"Email account doesn't exist",
+        "emailMissing":"Please Fill in Email address",
+        "resetSuccess": "Your password has been successfully changed"
+    },
+    "login":{
+        "title":"Login",
+        "email":"Email",
+        "password":"Password",
+        "forget_password":"Forgot Password",
+        "register":"Register",
+        "success": "Welcome back!",
+        "fail":"email or password not correct"
+    },
+    "register":{
+        "title":"Register",
+        "email":"Email",
+        "username":"Username",
+        "county":"Country Code",
+        "mobile": "Mobile",
+        "password":"Password",
+        "password_confirm":"Confirm Password",
+        "success":"Welcome to AromaPod Breathing",
+        "fail":"Username or Email already taken",
+        "notValid":"form not valid",
+        "passwordError":"Passwords don't Match",
+        "missing":"missing"
+    },
+    "landing":{
+        "login":"Login"
+    },
+    "main":{
+        "score":"Score",
+        "mood":"Mood",
+        "breath_time_before":"Breath ",
+        "breath_time_after":" more today"
+    },
+    "menu":{
+        "breath":"Breath",
+        "achievement":"Achievement",
+        "strength":"Strength Label",
+        "Dream":"Dream",
+        "Smile":"Smile",
+        "Wheel":"Wheel",
+        "wheelFull":"Wheel of life",
+        "Emotion":"Emotion",
+        "score":"Score"
+    },
+    "achievement":{
+        "title":"Achievement",
+        "section":{
+            "login":{
+                "title":"Consistency",
+                "subTitle":"Regular login"
+            },
+            "breathing3aDayCount":{
+                "title":"Breathing Master",
+                "subTitle":"Breath More"
+            },
+            "breathingTotal":{
+                "title":"Breathing Master",
+                "subTitle":"Breath More"
+            },
+            "wheelMoreThan8":{
+                "title":"Wheel Guru",
+                "subTitle":"Master your wheel of life"
+            },
+            "wheelTotal":{
+                "title":"Wheel Guru",
+                "subTitle":"Master your wheel of life"
+            },
+            "DreamCreateCount":{
+                "title":"Dream Maker",
+                "subTitle":"Create your reality"
+            },
+            "DreamFinishCount":{
+                "title":"Dream Maker",
+                "subTitle":"Create your reality"
+            },
+            "strengthCount":{
+                "title":"You’re good",
+                "subTitle":"More Strength ,more label"
+            },
+            "emotionHappyRow":{
+                "title":"Emotional",
+                "subTitle":"be true to yourself"
+            },
+            "emotionNegToPositive":{
+                "title":"Emotional",
+                "subTitle":"be true to yourself"
+            }
+        }
+    },
+    "score":{
+        "title":"Score",
+        "duration":"Duration :",
+        "journal_bonus":"Journey Bonus :",
+        "finish":"Finish",
+        "start_again":"Start Again",
+        "section":{
+            "Breathing" :"Breathing"
+        }
+    },
+    "setting":{
+        "title":"Setting",
+        "logout": "Logout",
+        "language":"language",
+        "breathDuration":"Breathing Duration (s)",
+        "breathInterval": "Interval (s) ",
+        "save":"Save"
+    },
+    "language":{
+        "en":"English",
+        "hk":" 繁體中文",
+        "cn":"簡體中文"
+    },
+    "emotion":{
+        "confirmTitle":"Your Emotion",
+        "detectionTitle":"Smile academy",
+        "countDownText":"Count Down",
+        "restart":"Test Again",
+        "label":{
+            "Joy":"Joy",
+            "Passion":"Passion",
+            "Empower":"Empower",
+            "Freedom":"Freedom",
+            "Love":"Love",
+            "Appreciation":"Appreciation",
+            "Enthusiasm":"Enthusiasm",
+            "Eagerness":"Eagerness",
+            "Happiness":"Happiness",
+            "Positive":"Positive",
+            "Expectation":"Expectation",
+            "Belief":"Belief",
+            "Trust":"Trust",
+            "Optimism":"Optimism",
+            "Hopefulness":"Hopefulness",
+            "Contentment":"Contentment",
+            "Boredom":"Boredom",
+            "Pessimism":"Pessimism",
+            "Frustration":"Frustration",
+            "Irritation":"Irritation",
+            "Impatience":"Impatience",
+            "Disappointment":"Disappointment",
+            "Doubt":"Doubt",
+            "Worry":"Worry",
+            "Blame":"Blame",
+            "Discouragement":"Discouragement",
+            "Sadness":"Sadness",
+            "Anger":"Anger",
+            "Rage":"Rage",
+            "Revenge":"Revenge",
+            "Hatred":"Hatred",
+            "Jealousy":"Jealousy",
+            "Insecurity":"Insecurity",
+            "Guilt":"Guilt",
+            "Unworthiness":"Unworthiness",
+            "Fear":"Fear",
+            "Grief":"Grief",
+            "Depression":"Depression",
+            "Despair":"Despair",
+            "Powerlessness":"Powerlessness"
+        },
+        "description":{
+            "Joy":"I feel joy when I am having well-being, success, or good fortune or by possessing what I desire.",
+            "Passion":"I have an intense drive intro doing something.",
+            "Empower":"I think I can empower to do anything. ",
+            "Freedom":"I have freedom to choose what I want to do. ",
+            "Love":"I have a strong admiration towards others and am willing to give. ",
+            "Appreciation":"I have gradtitude towards the things that happen every day. ",
+            "Enthusiasm":"I have an inspiring zeal to accept and do new things. ",
+            "Eagerness":"I am eager to do what I like to do and invest time into it. ",
+            "Happiness":"I feel contented with the situation most of the time. ",
+            "Positive":"I always believe something good is going to happen to me. ",
+            "Expectation":"I have expectation to the surroundings and would like to pay effort to meet it. ",
+            "Belief":"I have belief into my ability to create and change my life.",
+            "Trust":"Trust on myself and between others are important to me. ",
+            "Optimism":"I always see the positive side of the things.",
+            "Hopefulness":"I am full of hope to the future. ",
+            "Contentment":"I am satisfied with what I've got. ",
+            "Boredom":"The repetition from boredom can give my life experience to face what I need to deal with later. ",
+            "Pessimism":"At time I am seeing the dark side but I am learning to see another side. ",
+            "Frustration":"I can be frustrated when I fail but the past experience makes me growth. ",
+            "Irritation":"What I am worried about doesnt really exist. Worry doesnt help the matter. ",
+            "Impatience":"Sometimes, I can't wait for things that take too long but I can rush to the result. ",
+            "Disappointment":"I am disappointed because I have high expectation on self. ",
+            "Doubt":"I have self-doubt to polish things and an attempt to make it perfect. ",
+            "Worry":"I can be a bit overworrying towards the bad things that can be happening but that is mostly not realistic. ",
+            "Blame":"I do not prefer to blame it on others but I do take that responsibility. ",
+            "Discouragement":"Things I feel frustrated is the lessons I can learn for later. ",
+            "Sadness":"I feel the sadness when things turn out not to be good enough but I am learning to distract myself from it.",
+            "Anger":"Unfairness can make me angry and become sensitive to others. I should conider other people's feeling as well. ",
+            "Rage":"The rage that I need to control is a kind of strong emotions and I am learning to keep calm no matter what happens. ",
+            "Revenge":"I tend to take revenge when I do not feel good how others people treat me, but this is not good for my health. ",
+            "Hatred":"Resentment is going to destory my well-being. I should learn how to forgive others. ",
+            "Jealousy":"Jealousy is a sense of lacking of love to others and self-love. I should put my focus into building my own self esteem more. ",
+            "Insecurity":"I am not secure to the new changes and new challenges but I should build my strength to face the variable. ",
+            "Guilt":"My guilt can be growing when something is wrong and it seems I need to make sure everything is right. ",
+            "Unworthiness":"Things are all of values but I have ignored my own one.",
+            "Fear":"I have fear towards what I cannot predict and I am building bravery to confront it. ",
+            "Grief":"Sadness can always happen but it won't last forever. ",
+            "Depression":"I have already been bearing what I can still take. My depression is growing and I have to alleviate. ",
+            "Despair":"Losing hope can be scary and should not sustain this despair but I should learn to think positively. ",
+            "Powerlessness":"Not everyone can control the directions of life, including me."
+        }
+    },
+    "content":{
+        "readMore":"Read More..."
+    },
+    "dream":{
+       "create":"New Dream",
+       "section1":"Dream",
+       "section1_tips":"Choose your dream \n\nMore exercise to keep fit\n\nMore time for love life\n\nMore focused to work\n\nMore emotion control ...etc",
+       "section2":"Specific Goal for realizing the dream:",
+       "section2_tips":"For Example :Lose 10Kg and be able to do 50 pushups without a break",
+       "section3":"Measurable (Trackable) :",
+       "section3_tips":"For Example :Lose 0.5 Kg/Week Add 2 pushups to my weekly max every week",
+       "section4":"Achievable",
+       "section4_tips":"For Example :Max weight loss per week is about 1Kg. Half Kg/week well within that An extra 2 per week feels reasonably achievable",
+       "section5":"Relevant [Why]",
+       "section5_tips":"For Example :Being overweight put you more at risk of getting cardiovascular disease.Being overweight put you more at risk of getting severe covid I don't want to die young",
+       "section6":"Time-bound [When]"
+    },
+    "Strength":{
+        "label":{
+            "Zest":"Zest", 
+            "FriendShip":"FriendShip", 
+            "Gratitude":"Gratitude",
+            "Love":"Love",
+            "Perseverance":"Perseverance",
+            "Creativity":"Creativity",
+            "Curiosity":"Curiosity",
+            "Love_of_Learning":"Love of Learning", 
+            "Fairness":"Fairness",
+            "Humor":"Humor",
+            "Bravery":"Bravery", 
+            "Hope":"Hope", 
+            "Self_Control":"Self-Control",
+            "Leadership":"Leadership", 
+            "Kindness":"Kindness",
+            "Appreciation_of_Beauty":"Appreciation of Beauty",
+            "Humility":"Humility", 
+            "Honesty":"Honesty",
+            "Prudence":"Prudence", 
+            "Judgment":"Judgment",
+            "Perspective":"Perspective", 
+            "Teamwork":"Teamwork", 
+            "Forgiveness":"Forgiveness", 
+            "Sense_of_Meaning":"Sense of Meaning"
+        },
+        "description":{
+            "Zest":"I own my passion to different aspects in life. ", 
+            "FriendShip":"I respect friendship in different communities. ", 
+            "Gratitude":"I feel grateful to the things I have. ",
+            "Love":"I am full of passion towards life. ",
+            "Perseverance":"I can keep doing the same thing without giving up easily. ",
+            "Creativity":"I have the power to create what I want in life. ",
+            "Curiosity":"I have the interest to learn the things around me. ",
+            "Love_of_Learning":"I love learning new things. ", 
+            "Fairness":"I trust the fairness serves its purpose. ",
+            "Humor":"I believe humour makes life at ease.",
+            "Bravery":"I am brave towards challenges. ", 
+            "Hope":"I sustain hope to the unknown changes. ", 
+            "Self_Control":"I can control myself not to lose directions. ",
+            "Leadership":"I can lead a team to success. ", 
+            "Kindness":"I am kind most of the time to others. ",
+            "Appreciation_of_Beauty":"I can see the beauty in things. ",
+            "Humility":"I am humble and never think I am the best. ", 
+            "Honesty":"I am honest and genuine to others. ",
+            "Prudence":"I don't overestimate numbers and facts. ", 
+            "Judgment":"I tend to make good decision with fair judgment. ",
+            "Perspective":"I see things in different perspectives. ", 
+            "Teamwork":"I can work with others in a team. ", 
+            "Forgiveness":"I know how to forgive other people's mistakes. ", 
+            "Sense_of_Meaning":"I have found the meaning of life. "
+        }
+    },
+    "Inventory":{
+        "title":"Inventory",
+        "categories":{
+            "tree":"Tree"
+        }
+    },
+    "game_intro":{
+        "title":"Create your own garden",
+        "body":"Let’s start your mental journey by creating your own psychic garden. \n \n We have all been stressed and sometimes uncomfortable by the real life surrounding, but here, you have your own choice to create your garden."
+    },
+    "ui_intro":{
+        "title":"",
+        "body":"Followed by each step, we are guiding you to a mental journey to destress, unlearn and recreate your inner peace after unlocking. \n \n  Are you ready? "
+    },
+    "breath_intro":{
+        "title":"Breathing Bubble",
+        "body":"Take a few moments and put your aromapod together with you. \n\n If you don’t have an aromapod, it is alright to start by adjusting your breathing pace. "
+    },
+    "dream_intro":{
+        "title":"Dream machine ",
+        "body":"Dream is not far when you have your determination for actions.  \n \n Now we are helping you and accompanying you."
+    },
+    "smile_intro":{
+        "title":"Capture your perfect smile",
+        "body":"Smile here and we will capture your smile.  \n \n Practise smiling to improve your perfect smile angle.  \n \n Say ‘Cheese’ and show us a cheeky smile for today. \n \n Learn your perfect smile."
+    },
+    "emotion_intro":{
+        "title":"Detect your emotions",
+        "body":"Inner values are built by knowledge. \n\n Read more stories related to your emotions. \n\n Choose one of the emotions that represent you now. \n\n The article of the day will pop up according to your mood that day. \n\n The more you read, you can gain more points. "
+    },
+    "wheel_intro":{
+        "title":"Your Wheel of Life",
+        "body":"Select your strength label to generate a wheel of life that represents what balances you. \n\n Your psychic reading on different aspects:\n\n Spirituality : Enough time to pause with personal space\n\nHealth : A well balanced life with physical and mental strength\n\nMoney : Having abundance in wealth\n\n Career : Work success in future \n\nSocial : Relationship with others\n\n Love : long lasting love and romance\n\n Personal : Self valued and confidence\n\nFun : The outer challenges that entertains you \n\nFrom a profile with scores, you know what to focus on in the coming 4 weeks. "
+    }
+    
+}

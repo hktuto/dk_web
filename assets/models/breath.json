@@ -1,0 +1,18 @@
+{
+	"_id": {
+		"$oid": "6212257ddadfa4162c9471f9"
+	},
+	"breath_setting_id": "6212257ddadfa4162c9471f9",
+	"name": "breathsetting name1",
+	"duration": 180,
+	"product": "breathsetting product",
+	"inhaleDuration": 5,
+	"exhaleDuration": 5,
+	"score": 100,
+	"createdAt": {
+		"$date": 1645315200000
+	},
+	"updatedAt": {
+		"$date": 1645315200000
+	}
+}

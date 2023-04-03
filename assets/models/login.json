@@ -1,0 +1,19 @@
+{
+	"_id": {
+		"$oid": "620b209e46c97165779bc40b"
+	},
+	"user_id": "620b209e46c97165779bc40b",
+	"username": "tayo0w",
+	"email": "tayo01.olowu@me.com",
+	"password": {
+		"$binary": "JDJiJDEyJG9JUGI5U1R4UmI4RUZSUGRtblVqTmU3S2c2S0xNcVBRQ0RUS1lJZjBvTDJEeEJJZlc5WnIy",
+		"$type": "00"
+	},
+	"provider": "email",
+	"createdAt": {
+		"$date": 1644896088438
+	},
+	"updatedAt": {
+		"$date": 1644896088438
+	}
+}
